@@ -1,3 +1,16 @@
+/*
+cores: 
+- #4589D6 (base)
+- #96C1F2 (mais clara)
+- #4D99F0 (clara)
+- #465970 (mais escura)
+- #3C78BD (escura)
+
+cor botão: #4D99F0
+
+cor botão(h): #96c1f2b4
+*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -7,7 +20,7 @@
 
 html,body{
 	height: 100%;
-    background-color: #192123;
+    background-color: #3C78BD;
 }
 
 .container{
@@ -58,17 +71,16 @@ nav.mobile-menu ul{
 	top: 80px;
 	list-style-type: none;
 	text-align: center;
-    text-shadow: 3px 3px 10px black;
 }
 
 nav.mobile-menu ul li{
 	padding:8px 0;
 	transition: 0.4s;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #472563;
 }
 
 nav.mobile-menu ul li:hover{
-	background-color: rgb(230,230,230);
+	background-color: #e6e6e6;
 }
 
 nav.mobile-menu ul li a{
@@ -89,14 +101,21 @@ header .logo{
 	background-color: transparent;
 }
 
+header nav.desktop-menu{
+    background-color: #4659705d;
+    border-radius: 5px;
+    height: 40px;
+}
+
 header nav.desktop-menu ul{
 	list-style-type: none;
-    text-shadow: 0px 0px 15px black;
+    text-shadow: 0px 0px 5px black;
 }
 
 header nav.desktop-menu li{
 	float: left;
 	padding:0 20px;
+    margin-top: 8px;
 }
 
 header nav.desktop-menu li a{
@@ -114,19 +133,19 @@ header nav.desktop-menu li a{
 	font-weight: 300;
 	font-size: 40px;
 	color: white;
-    text-shadow: 3px 3px 15px black;
+    text-shadow: 3px 3px 15px #472563;
 }
 
 .chamada1 p{
 	font-size: 15px;
 	color: white;
 	margin-top:10px;
-    text-shadow: 3px 3px 15px black;
+    text-shadow: 3px 3px 15px #472563;
 }
 
 section.sessao1{
 	width: 100%;
-	background-color: #472562;
+	background-color: #3C78BD;
 	padding:0 2%;
 	height: 400px;
 }
@@ -168,16 +187,21 @@ section.sessao1 .container{
 }
 
 .btn1-texto{
-	background-color: #FF703D;
+	background-color: #4D99F0;
 	width: 165px;
 	height: 44px;
 	font-size: 13px;
-	color: white;
+	color: #ffffff;
+    text-shadow: 0px 0px 10px #00000067;
 	cursor: pointer;
 	margin-top:30px;
 	text-align: center;
 	line-height: 44px;
 	border-radius: 30px;
+}
+
+.btn1-texto:hover{
+    background-color: #96c1f2b4;
 }
 
 .device-sessao1{
@@ -229,7 +253,7 @@ section.sessao1 .container{
 	float: left;
 	width: 50%;
 	padding:140px 0 90px 0;
-	background: #835FA7;
+	background: #465970;
 }
 
 .wraper-part1{
@@ -321,20 +345,20 @@ section.sessao1 .container{
 	margin-right: 8px;
 	cursor: pointer;
 	border-radius: 8px;
-	background-color: rgb(200,200,200);
+	background-color: #c8c8c8;
 }
 
 /* Aqui estou começando a sessão de número 4! */
 
 section.sessao4{
-	background-color: #472563;
+	background-color: #3C78BD;
 	padding:100px 0;
 }
 
 .form{
 	float: left;
 	width: 50%;
-	color: white;
+	color: #ffffff;
 	padding-left: 10px;
 }
 
@@ -361,7 +385,7 @@ section.sessao4{
 	height: 58px;
 	padding-left: 8px;
 	line-height: 58px;
-	border:1px solid rgb(200,200,200);
+	border:1px solid #c8c8c8;
 }
 
 .form form textarea{
@@ -369,27 +393,32 @@ section.sessao4{
 	margin-top:8px;
 	max-width: 480px;
 	padding:15px;
-	border:1px solid rgb(200,200,200);
+	border:1px solid #c8c8c8;
 	height: 160px;
 }
 
 .form form input[type=submit]{
 	border: 0;
-	background-color: #FF703D;
+	background-color: #4D99F0;
 	width: 165px;
 	height: 44px;
 	font-size: 13px;
-	color: white;
+	color: #ffffff;
 	cursor: pointer;
 	margin-top:15px;
 	border-radius: 30px;
+    text-shadow: 0px 0px 10px #00000067;
+}
+
+.form form input[type=submit]:hover{
+    background-color: #96c1f2b4;
 }
 
 .map-wraper{
 	float: left;
 	width: 50%;
 	padding:0 10px;
-	color: white;
+	color: #ffffff;
 }
 
 .map-wraper h2{
@@ -418,8 +447,8 @@ section.sessao4{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: white;
-	border:5px solid rgb(200,200,200);
+	background: #ffffff;
+	border:5px solid #c8c8c8;
 }
 
 /***/
@@ -428,7 +457,7 @@ section.sessao4{
 footer{
 	padding:40px 2%;
 	background: #192123;
-	color: white;
+	color: #ffffff;
 }
 
 footer p:nth-of-type(1){
@@ -455,12 +484,12 @@ footer p:nth-of-type(2){
 		font-weight: 300;
 		font-size: 30px;
 		padding:0 0px;
-		color: white;
+		color: #ffffff;
 	}
 
 	.chamada1 p{
 		font-size: 15px;
-		color: white;
+		color: #ffffff;
 		margin-top:10px;
 	}
 }
