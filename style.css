@@ -137,7 +137,7 @@ header nav.desktop-menu li a{
 	font-weight: 300;
 	font-size: 40px;
 	color: white;
-	text-shadow: 0px 0px 10px #465970;
+	text-shadow: 3px 3px 10px #465970;
 }
 
 .chamada1 p{
@@ -166,7 +166,7 @@ section.sessao1 .container{
 	float: left;
 	width: 50%;
 	position: relative;
-	left: 55px;
+	left: 10px;
 	margin-top:60px;
 	padding-left: 80px;
 	color: white;
@@ -195,11 +195,11 @@ section.sessao1 .container{
 
 .btn1-texto{
 	background-color: #4D99F0;
-	width: 165px;
+	width: 130px;
 	height: 44px;
 	font-size: 13px;
 	color: #ffffff;
-    text-shadow: 0px 0px 10px #00000067;
+  text-shadow: 0px 0px 10px #00000067;
 	cursor: pointer;
 	margin-top:30px;
 	text-align: center;
@@ -260,6 +260,7 @@ section.sessao1 .container{
 	color: white;
 	float: left;
 	width: 50%;
+	height: 477px;
 	padding:140px 0 90px 0;
 	background: #465970;
 }
@@ -278,7 +279,7 @@ section.sessao1 .container{
 
 .part1 p{
 	font-size: 15px;
-	line-height: 35px;
+	line-height: 30px;
 	margin-top:10px;
 }
 
@@ -322,7 +323,7 @@ section.sessao1 .container{
 	float: left;
 	width: 40px;
 	height:40px;
-	background-image: url('imagens/actor1.png');
+	background-image: url('imagens/ceo-jpo.jpeg');
 	background-size: 100% 100%;
 	border-radius: 20px;
 	background-color: transparent;
@@ -332,6 +333,7 @@ section.sessao1 .container{
 	float: left;
 	width: 100%;
 	margin-top:10px;
+	padding-right: 10px;
 }
 
 .texto-autor p{
@@ -356,8 +358,6 @@ section.sessao1 .container{
 	background-color: #c8c8c8;
 }
 
-/* Aqui estou começando a sessão de número 4! */
-
 section.sessao4{
 	background-color: #3C78BD;
 	padding:100px 0;
@@ -368,11 +368,13 @@ section.sessao4{
 	width: 50%;
 	color: #ffffff;
 	padding-left: 10px;
+	margin-bottom: -60px;
 }
 
 .form h2{
 	font-size: 23px;
 	font-weight: 300;
+	margin-top: -70px;
 }
 
 .form p{
@@ -413,50 +415,19 @@ section.sessao4{
 	font-size: 13px;
 	color: #ffffff;
 	cursor: pointer;
-	margin-top:15px;
+	margin-top: 25px;
 	border-radius: 30px;
-    text-shadow: 0px 0px 10px #00000067;
+  text-shadow: 0px 0px 10px #00000067;
 }
 
 .form form input[type=submit]:hover{
     background-color: #96c1f2b4;
 }
 
-.map-wraper{
-	float: left;
-	width: 50%;
-	padding:0 10px;
-	color: #ffffff;
-}
-
-.map-wraper h2{
-	font-size: 23px;
-	font-weight: 300;
-}
-
-.map-wraper3{
-	margin-top:10px;
-	width: 100%;
-	max-width: 480px;
-	position: relative;
-}
-
-.map-wraper2{
-	position: absolute;
-	left: 0;
-	top:0;
-	width: 100%;
-	padding-top:100%;
-}
-
-.map{
-	left: 0;
-	top: 0;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: #ffffff;
-	border:5px solid #c8c8c8;
+.art{
+  width: 350px;
+  height: auto;
+  margin-top: -30px;
 }
 
 /***/
@@ -520,7 +491,6 @@ nav.mobile-menu{
 	display: block;
 }
 
-
 section.sessao1{
 	padding:40px 2%;
 	height: auto;
@@ -530,7 +500,6 @@ section.sessao1{
 .sessao1 .container{
 	height: auto;
 }
-
 
 .texto-sessao1{
 	width: 100%;
@@ -563,6 +532,10 @@ section.sessao1{
 	padding-top: 40px;
 }
 
+.part1{
+  height: 400px;
+}
+
 section.sessao4 .container{
 	text-align: center;
 }
@@ -570,6 +543,7 @@ section.sessao4 .container{
 .form{
 	float: none;
 	width: 100%;
+	margin-bottom: -80px;
 }
 
 .form p{
@@ -577,32 +551,9 @@ section.sessao4 .container{
 	float: none;
 }
 
-.map-wraper{
-	float: none;
-	width: 100%;
-	padding:0 8%;
-	margin-top:40px;
-}
-
-
-.map-wraper3{
-	margin-top:10px;
-	width: 100%;
-	padding-top: 100%;
-	display: inline-block;
-	max-width: none;
-	position: relative;
-}
-
-.map-wraper2{
-	position: absolute;
-	left: 0;
-	top:0;
-	width: 100%;
-	height: 100%;
-	padding-top:0;
-}
-
+.art{
+  width: 0px;
+  height: 0px;
 }
 
 @media screen and (max-width: 580px){
