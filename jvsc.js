@@ -1,1 +1,0 @@
-// qnd o site carregar = print uma mensagem
