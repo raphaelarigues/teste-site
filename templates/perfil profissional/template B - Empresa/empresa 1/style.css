@@ -21,7 +21,7 @@
 section.bg-top{
   width: 100%;
   min-height:500px;
-  background-image: url('images/bg.jpg');
+  background-image: url('imagens/bg.jpg');
   background-size: cover;
   background-position:center;
   background-attachment: fixed;
