@@ -111,18 +111,23 @@ header nav.desktop-menu{
 
 header nav.desktop-menu ul{
 	list-style-type: none;
-  text-shadow: 0px 0px 5px black;
+  	text-shadow: 0px 0px 5px black;
 }
 
 header nav.desktop-menu li{
 	float: left;
 	padding:0 20px;
-  margin-top: 8px;
+  	margin-top: 8px;
 }
 
 header nav.desktop-menu li a{
 	text-decoration: none;
 	color: white;
+}
+
+header nav.desktop-menu li a:hover{
+	color: white;
+	text-shadow: 0px 0px 5px white;
 }
 
 .chamada1{
@@ -203,16 +208,22 @@ section.sessao1 .container{
 	height: 44px;
 	font-size: 13px;
 	color: #ffffff;
-  text-shadow: 0px 0px 10px #00000067;
+ 	text-shadow: 0px 0px 10px #00000067;
 	cursor: pointer;
 	margin-top:30px;
 	text-align: center;
 	line-height: 44px;
 	border-radius: 30px;
+	box-shadow: 3px 3px 10px #00000067;
 }
 
 .btn1-texto:hover{
     background-color: #96c1f2b4;
+}
+
+.btn1-texto:active{
+	box-shadow: 0px 0px 0px #00000067;
+	background-color: #3884db;
 }
 
 .device-sessao1{
@@ -384,7 +395,7 @@ section.sessao4{
 .form p{
 	font-size: 15px;
 	font-weight: 300;
-	max-width: 400px;
+	max-width: 504px;
 	padding-right: 10px;
 	margin-top: 5px;
 }
@@ -422,11 +433,17 @@ section.sessao4{
 	cursor: pointer;
 	margin-top: 25px;
 	border-radius: 30px;
-  text-shadow: 0px 0px 10px #00000067;
+  	text-shadow: 0px 0px 10px #00000067;
+	box-shadow: 3px 3px 10px #00000067;
 }
 
 .form form input[type=submit]:hover{
     background-color: #96c1f2b4;
+}
+
+.form form input[type=submit]:active{
+	box-shadow: 0px 0px 0px #00000067;
+	background-color: #3884db;
 }
 
 .art{
