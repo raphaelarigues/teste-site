@@ -20,19 +20,19 @@
 	    <div class="logo"></div><!--logo-->
         <nav class="desktop-menu">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#serviços">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
 
         <nav class="mobile-menu">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Serviços</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#serviços">Sobre</a></li>
+                <li><a href="#sobre">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
         
@@ -65,7 +65,7 @@
 			<div class="clear"></div>
 			<div class="btn1-texto">Selecionar</div>
 		</div><!--texto-sessao1-->
-		<div class="device-sessao1"></div><!--device-->
+		<div id="serviços" class="device-sessao1"></div><!--device-->
 		<div class="clear"></div>
 	</div><!--container-->
 </section><!--sessao1-->
@@ -80,7 +80,7 @@
 	</div><!--container-->
 </section><!--sessao2-->
 
-<section class="sessao3">
+<section id="sobre" class="sessao3">
 
 <div class="part1">
     <div class="wraper-part1">
@@ -118,7 +118,7 @@
 <section class="sessao4">
 	<div class="container">
 		<div class="form">
-			<h2>Entre em contato</h2>
+			<h2 id="contato">Entre em contato</h2>
 			<p>
 			  Tem dúvidas ou precisa de mais informações? Entre em contato conosco! Estamos prontos para responder suas perguntas. Nos envie um e-mail, teremos o prazer de ajudar!
 			</p>
@@ -142,10 +142,15 @@
 <footer>
 	<div class="container">
 		<p>Todos os direitos reservados</p>
-		<p>hefezzia@gmail.com</p>
+		<a style="text-decoration: none; color: white;" href="mailto:hefezzia@gmail.com?subject=COLOQUE%20AQUI%20O%20ASSUNTO&body=COLOQUE%20AQUI%20SUA%20MENSAGEM">
+			<p>hefezzia@gmail.com</p>
+		</a>
 		<div class="clear"></div>
 	</div><!--container-->
 </footer>
+
+<script src="jvsc.js"></script>
+<script src="../estudo/bloco022-aula01_03/js/jquery-3.7.0.min.js"></script>
 
 </body>
 </html>

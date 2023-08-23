@@ -189,6 +189,7 @@ section.sessao1 .container{
 	font-size: 15px;
 	list-style-position: outside;
 	padding-left: 15px;
+	margin-top: 15px;
 }
 
 .texto-sessao1 ul li{
@@ -385,6 +386,7 @@ section.sessao4{
 	font-weight: 300;
 	max-width: 400px;
 	padding-right: 10px;
+	margin-top: 5px;
 }
 
 .form form{
@@ -447,7 +449,8 @@ footer p:nth-of-type(1){
 	font-size: 14px;
 }
 
-footer p:nth-of-type(2){
+footer p:nth-of-type(2),
+a{
 	float: right;
 	font-size: 14px;
 }
@@ -463,20 +466,20 @@ footer p:nth-of-type(2){
 
 	.chamada1 h2{
 		font-weight: 300;
-		font-size: 30px;
+		font-size: 45px;
 		padding:0 0px;
 		color: #ffffff;
 	}
 
 	.chamada1 p{
-		font-size: 15px;
+		font-size: 17px;
 		color: #ffffff;
 		margin-top:10px;
-		width: 500px;
+		width: 516px;
 	}
 
 	.part1{
-		height: 398px;
+		height: 395px;
 	}
 }
 
