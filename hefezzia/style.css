@@ -551,26 +551,11 @@ a{
 	}
 
 	nav.desktop-menu{
-		display:none;
+		display:block;
 	}
 
 	nav.mobile-menu{
-		display: block;
-	}
-
-	nav.mobile-menu > ul > li > #home,
-	nav.mobile-menu > ul > li > #sbr{
-		margin-right: 334px;
-		margin-top: -10px;
-	}
-
-	nav.mobile-menu > ul > li > #svç{
-		margin-right: 326px;
-		margin-top: -10px;
-	}
-	nav.mobile-menu > ul > li > #ctt{
-		margin-right: 327px;
-		margin-top: -10px;
+		display: none;
 	}
 
 	section.sessao1{
@@ -710,6 +695,21 @@ a{
 }
 
 @media screen and (max-width: 425px){
+	nav.mobile-menu > ul > li > #home,
+	nav.mobile-menu > ul > li > #sbr{
+		margin-right: 190px;
+		margin-top: -10px;
+	}
+
+	nav.mobile-menu > ul > li > #svç{
+		margin-right: 182px;
+		margin-top: -10px;
+	}
+	nav.mobile-menu > ul > li > #ctt{
+		margin-right: 183px;
+		margin-top: -10px;
+	}
+
 	.chamada1 > p{
 		width: 360px;
 		font-size: 14px;
@@ -729,6 +729,21 @@ a{
 }
 
 @media screen and (max-width: 375px){
+	nav.mobile-menu > ul > li > #home,
+	nav.mobile-menu > ul > li > #sbr{
+		margin-right: 170px;
+		margin-top: -10px;
+	}
+
+	nav.mobile-menu > ul > li > #svç{
+		margin-right: 162px;
+		margin-top: -10px;
+	}
+	nav.mobile-menu > ul > li > #ctt{
+		margin-right: 163px;
+		margin-top: -10px;
+	}
+
 	footer > div > a > p{
 		position: relative;
 		margin-right: 112px;
@@ -737,6 +752,21 @@ a{
 }
 
 @media screen and (max-width: 320px){
+	nav.mobile-menu > ul > li > #home,
+	nav.mobile-menu > ul > li > #sbr{
+		margin-right: 140px;
+		margin-top: -10px;
+	}
+
+	nav.mobile-menu > ul > li > #svç{
+		margin-right: 132px;
+		margin-top: -10px;
+	}
+	nav.mobile-menu > ul > li > #ctt{
+		margin-right: 133px;
+		margin-top: -10px;
+	}
+
 	.chamada1 > p{
 		width: 300px;
 		font-size: 14px;
