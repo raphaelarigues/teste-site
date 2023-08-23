@@ -558,6 +558,21 @@ a{
 		display: block;
 	}
 
+	nav.mobile-menu > ul > li > #home,
+	nav.mobile-menu > ul > li > #sbr{
+		margin-right: 334px;
+		margin-top: -10px;
+	}
+
+	nav.mobile-menu > ul > li > #svç{
+		margin-right: 326px;
+		margin-top: -10px;
+	}
+	nav.mobile-menu > ul > li > #ctt{
+		margin-right: 327px;
+		margin-top: -10px;
+	}
+
 	section.sessao1{
 		padding:40px 2%;
 		height: auto;
@@ -622,6 +637,11 @@ a{
 	width: 0px;
 	height: 0px;
 	}
+
+	a{
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media screen and (max-width: 655px) {
@@ -648,7 +668,7 @@ a{
 	}
 
 	.part1{
-		height: 482px;
+		height: 475px;
 	}
 }
 
@@ -656,6 +676,7 @@ a{
 	.part1{
 		width: 100%;
 		padding:40px 0;
+		height: 250px;
 	}
 
 	.part2{
@@ -679,5 +700,57 @@ a{
 	footer p:nth-of-type(2){
 		float: none;
 		margin-top:8px;
+	}
+
+	footer > div > a > p{
+		position: relative;
+		margin-right: 210px;
+		margin-top: 7px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.chamada1 > p{
+		width: 360px;
+		font-size: 14px;
+	}
+
+	.part1{
+		width: 100%;
+		padding:40px 0;
+		height: 300px;
+	}
+
+	footer > div > a > p{
+		position: relative;
+		margin-right: 134px;
+		margin-top: 7px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	footer > div > a > p{
+		position: relative;
+		margin-right: 112px;
+		margin-top: 7px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.chamada1 > p{
+		width: 300px;
+		font-size: 14px;
+	}
+
+	.part1{
+		width: 100%;
+		padding:40px 0;
+		height: 400px;
+	}
+
+	footer > div > a > p{
+		position: relative;
+		margin-right: 86px;
+		margin-top: 7px;
 	}
 }
