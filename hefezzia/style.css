@@ -195,11 +195,13 @@ section.sessao1 .container{
 	list-style-position: outside;
 	padding-left: 15px;
 	margin-top: 15px;
+	display: inline-block;
+	margin-left: -5px;
 }
 
-.texto-sessao1 ul li{
-	width: 100%;
-	margin-top:8px;
+.texto-sessao1 ul input,
+.texto-sessao1 ul label{
+	cursor: pointer;
 }
 
 .btn1-texto{
@@ -599,7 +601,7 @@ a{
 		margin-top:20px;
 	}
 
-	.texto-sessao1 ul li{
+	.texto-sessao1 ul input{
 		float: none;
 		text-align: left;
 	}
