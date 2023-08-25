@@ -731,6 +731,26 @@ a{
 		display: block;
 	}
 
+	nav.mobile-menu ul{
+		width: 200px;
+		margin-left: 435px;
+	}
+
+	nav.mobile-menu > ul > li > #home,
+	nav.mobile-menu > ul > li > #sbr{
+		margin-right: 80px;
+		margin-top: -10px;
+	}
+
+	nav.mobile-menu > ul > li > #svç{
+		margin-right: 72px;
+		margin-top: -10px;
+	}
+	nav.mobile-menu > ul > li > #ctt{
+		margin-right: 73px;
+		margin-top: -10px;
+	}
+
 	.chamada1{
 		max-width: none;
 		width: 100%;
@@ -773,6 +793,26 @@ a{
 }
 
 @media screen and (max-width: 580px){
+	nav.mobile-menu ul{
+		width: 200px;
+		margin-left: 358px;
+	}
+
+	nav.mobile-menu > ul > li > #home,
+	nav.mobile-menu > ul > li > #sbr{
+		margin-right: 80px;
+		margin-top: -10px;
+	}
+
+	nav.mobile-menu > ul > li > #svç{
+		margin-right: 72px;
+		margin-top: -10px;
+	}
+	nav.mobile-menu > ul > li > #ctt{
+		margin-right: 73px;
+		margin-top: -10px;
+	}
+
 	.texto-sessao1 #primeiraColuna{
 		display: table;
 		margin-left: 90px;
@@ -825,21 +865,21 @@ a{
 
 @media screen and (max-width: 425px){
 	nav.mobile-menu > ul{
-		margin-left: 195px;
+		margin-left: 207px;
 	}
 
 	nav.mobile-menu > ul > li > #home,
 	nav.mobile-menu > ul > li > #sbr{
-		margin-right: 90px;
+		margin-right: 80px;
 		margin-top: -10px;
 	}
 
 	nav.mobile-menu > ul > li > #svç{
-		margin-right: 82px;
+		margin-right: 72px;
 		margin-top: -10px;
 	}
 	nav.mobile-menu > ul > li > #ctt{
-		margin-right: 83px;
+		margin-right: 73px;
 		margin-top: -10px;
 	}
 
@@ -897,7 +937,7 @@ a{
 
 @media screen and (max-width: 375px){
 	nav.mobile-menu > ul{
-		margin-left: 170px;
+		margin-left: 157px;
 	}
 	nav.mobile-menu > ul > li > #home,
 	nav.mobile-menu > ul > li > #sbr{
@@ -961,7 +1001,8 @@ a{
 
 @media screen and (max-width: 320px){
 	nav.mobile-menu > ul{
-		margin-left: 145px;
+		margin-left: 155px;
+		width: 150px;
 	}
 
 	nav.mobile-menu > ul > li > #home,
