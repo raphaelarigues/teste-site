@@ -7,6 +7,8 @@
 	<link rel="icon" href="imagens/favicon.ico" type="image/x-icon"/>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="jquery-3.7.0.min.js"></script>
+	<script src="slider.js"></script>
 	<meta charset="utf-8"/>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
@@ -57,24 +59,24 @@
 		<div class="texto-sessao1">
 			<h2>Desenvolva Sistemas Únicos</h2>
 			<p>Escolha dentre os modelos disponíveis abaixo e comece já sua jornada pelo sucesso online!</p>
-			<ul>
-				<input type="checkbox" name="opç1" id="StProf">
+			<ul id="primeiraColuna">
+				<input type="radio" name="opç" id="StProf">
 				<label for="StProf">Sites Profissionais</label>
 				<br>
-				<input type="checkbox" name="opç2" id="LjVirt">
-				<label for="LjVirt">Lojas Virtuais</label>
+				<input type="radio" name="opç" id="LjVrt">
+				<label for="LjVrt">Lojas Virtuais</label>
 				<br>
-				<input type="checkbox" name="opç3" id="BgPss">
+				<input type="radio" name="opç" id="BgPss">
 				<label for="BgPss">Blogs Pessoais</label>
 			</ul>
-			<ul style="margin-left: 50px;">
-				<input type="checkbox" name="opç4" id="StNtc">
+			<ul id="segundaColuna" style="margin-left: 50px;">
+				<input type="radio" name="opç" id="StNtc">
 				<label for="StNtc">Site de Notícias</label>
 				<br>
-				<input type="checkbox" name="opç5" id="CrrRs">
+				<input type="radio" name="opç" id="CrrRs">
 				<label for="CrrRs">Currículo/ Resume</label>
 				<br>
-				<input type="checkbox" name="opç6" id="StOnPg">
+				<input type="radio" name="opç" id="StOnPg">
 				<label for="StOnPg">Site One-Page</label>
 			</ul>
 			<div class="clear"></div>
@@ -116,16 +118,14 @@
 			<div class="img-autor"></div>
 		</div><!--titulo-autor-->
 		<div class="texto-autor">
-		<p>
-		  Liderando com visão, João não apenas guia nossa equipe, mas também é um desenvolvedor talentoso. Ele traz anos de experiência para o desenvolvimento de projetos inovadores, combinando habilidades de liderança com conhecimento técnico para impulsionar nosso sucesso.
-		</p>
+			<p>
+			Liderando com visão, João não apenas guia nossa equipe, mas também é um desenvolvedor talentoso. Ele traz anos de experiência para o desenvolvimento de projetos inovadores, combinando habilidades de liderança com conhecimento técnico para impulsionar nosso sucesso.
+			</p>
 		</div><!--texto-autor-->
 	</div><!--sobre-autor-->
-	<div class="slider-bullets">
-		<span style="background-color:rgb(170,170,170);"></span>
-		<span></span>
-		<span></span>
-	</div><!--slider-bullets-->
+	<div class="equipe">
+		<a href="equipe.html"><p>Equipe</p></a>
+	</div><!--equipe-->
 </div><!--part2-->
 <div class="clear"></div>
 </section><!--sessao3-->
@@ -163,9 +163,6 @@
 		<div class="clear"></div>
 	</div><!--container-->
 </footer>
-
-<script src="jvsc.js"></script>
-<script src="../estudo/bloco022-aula01_03/js/jquery-3.7.0.min.js"></script>
 
 </body>
 </html>

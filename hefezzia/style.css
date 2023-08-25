@@ -21,7 +21,7 @@ cor botão(h): #96c1f2b4
 
 html,body{
 	height: 100%;
-  background-color: #3C78BD;
+  	background-color: #3C78BD;
 }
 
 .container{
@@ -68,11 +68,12 @@ nav.mobile-menu ul{
 	transition: 1s;
 	background-color: white;
 	position: absolute;
-	width: 100%;
+	width: 50%;
 	left: 0;
 	top: 80px;
 	list-style-type: none;
 	text-align: center;
+	margin-left: 150px;
 }
 
 nav.mobile-menu ul li{
@@ -199,6 +200,31 @@ section.sessao1 .container{
 	margin-left: -5px;
 }
 
+.texto-sessao1 ul input{
+	all: unset;
+	margin-left: -10px;
+}
+
+.texto-sessao1 ul input + label:before {
+	content: '';
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color: white;
+	border: 1px solid gray;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+	margin-bottom: 3px;
+}
+  
+.texto-sessao1 ul input:checked + label:before {
+	background-color: white;
+	box-sizing: border-box;
+	border: 4px solid #4D99F0;
+	padding: 3.5px;
+}
+
 .texto-sessao1 ul input,
 .texto-sessao1 ul label{
 	cursor: pointer;
@@ -311,6 +337,7 @@ section.sessao1 .container{
 	float: left;
 	max-width: 600px;
 	padding-left: 30px;
+	display: block;
 }
 
 .titulo-autor{
@@ -358,21 +385,17 @@ section.sessao1 .container{
 	font-size: 15px;
 }
 
-.slider-bullets{
-	width: 100%;
-	float: left;
-	padding-left: 30px;
-	margin-top:12px;
-}
-
-.slider-bullets span{
-	width: 16px;
-	height: 16px;
-	float: left;
-	margin-right: 8px;
-	cursor: pointer;
-	border-radius: 8px;
-	background-color: #c8c8c8;
+.equipe a{
+	text-decoration: none;
+	color: white;
+	background-color: #4D99F0;
+	padding: 7px 20px;
+	border-radius: 30px;
+	text-shadow: 0px 0px 10px #00000067;
+	box-shadow: 3px 3px 10px #00000067;
+	margin-right: 595px;
+	margin-top: 30px;
+	margin-bottom: -34px;
 }
 
 section.sessao4{
@@ -554,8 +577,34 @@ a{
 		width: 500px;
 	}
 
+	.texto-sessao1 #primeiraColuna{
+		display: table;
+		margin-left: -10px;
+		font-size: 15px;
+	}
+
+	.texto-sessao1 #segundaColuna{
+		display: table;
+		float: right;
+		margin-top: -62px;
+		font-size: 14px;
+		padding-right: 20px;
+	}
+
+	.texto-sessao1 ul #StNtc{
+		margin-left: -82px;
+	}
+
+	.texto-sessao1 ul #CrrRs{
+		margin-left: -82px;
+	}
+
+	.texto-sessao1 ul #StOnPg{
+		margin-right: -72px;
+	}
+
 	.part1{
-		height: 440px;
+		height: 435px;
 	}
 }
 
@@ -598,12 +647,37 @@ a{
 
 	.texto-sessao1 ul{
 		display: inline-block;
-		margin-top:20px;
+		margin-top: 20px;
 	}
 
-	.texto-sessao1 ul input{
-		float: none;
-		text-align: left;
+	.texto-sessao1 #primeiraColuna{
+		display: table;
+		margin-left: 170px;
+		font-size: 15px;
+	}
+
+	.texto-sessao1 #segundaColuna{
+		display: table;
+		float: right;
+		margin-top: -62px;
+		font-size: 14px;
+		padding-right: 160px;
+	}
+
+	.texto-sessao1 ul #StProf{
+		margin-right: 33px;
+	}
+
+	.texto-sessao1 ul #BgPss{
+		margin-right: 10px;
+	}
+
+	.texto-sessao1 ul #StNtc{
+		margin-right: 8px;
+	}
+
+	.texto-sessao1 ul #CrrRs{
+		margin-right: 31px;
 	}
 
 	.btn1-texto{
@@ -679,12 +753,40 @@ a{
 		width: 500px;
 	}
 
+	.texto-sessao1 #primeiraColuna{
+		display: table;
+		margin-left: 100px;
+		font-size: 15px;
+	}
+
+	.texto-sessao1 #segundaColuna{
+		display: table;
+		float: right;
+		margin-top: -62px;
+		font-size: 14px;
+		padding-right: 120px;
+	}
+
 	.part1{
 		height: 475px;
 	}
 }
 
 @media screen and (max-width: 580px){
+	.texto-sessao1 #primeiraColuna{
+		display: table;
+		margin-left: 90px;
+		font-size: 15px;
+	}
+
+	.texto-sessao1 #segundaColuna{
+		display: table;
+		float: right;
+		margin-top: -62px;
+		font-size: 14px;
+		padding-right: 90px;
+	}
+
 	.part1{
 		width: 100%;
 		padding:40px 0;
@@ -722,24 +824,62 @@ a{
 }
 
 @media screen and (max-width: 425px){
+	nav.mobile-menu > ul{
+		margin-left: 195px;
+	}
+
 	nav.mobile-menu > ul > li > #home,
 	nav.mobile-menu > ul > li > #sbr{
-		margin-right: 190px;
+		margin-right: 90px;
 		margin-top: -10px;
 	}
 
 	nav.mobile-menu > ul > li > #svç{
-		margin-right: 182px;
+		margin-right: 82px;
 		margin-top: -10px;
 	}
 	nav.mobile-menu > ul > li > #ctt{
-		margin-right: 183px;
+		margin-right: 83px;
 		margin-top: -10px;
 	}
 
 	.chamada1 > p{
 		width: 360px;
 		font-size: 14px;
+	}
+
+	.texto-sessao1 #primeiraColuna{
+		display: table;
+		margin-left: 0px;
+		font-size: 15px;
+	}
+
+	.texto-sessao1 #segundaColuna{
+		display: table;
+		float: right;
+		margin-top: -62px;
+		font-size: 14px;
+		padding-right: 20px;
+	}
+
+	.texto-sessao1 ul #StProf{
+		margin-right: 31px;
+	}
+
+	.texto-sessao1 ul #BgPss{
+		margin-right: 10px;
+	}
+
+	.texto-sessao1 ul #StNtc{
+		margin-right: -18px;
+	}
+
+	.texto-sessao1 ul #CrrRs{
+		margin-right: 3px;
+	}
+
+	.texto-sessao1 ul #StOnPg{
+		margin-right: -97px;
 	}
 
 	.part1{
@@ -756,19 +896,60 @@ a{
 }
 
 @media screen and (max-width: 375px){
+	nav.mobile-menu > ul{
+		margin-left: 170px;
+	}
 	nav.mobile-menu > ul > li > #home,
 	nav.mobile-menu > ul > li > #sbr{
-		margin-right: 170px;
+		margin-right: 80px;
 		margin-top: -10px;
 	}
 
 	nav.mobile-menu > ul > li > #svç{
-		margin-right: 162px;
+		margin-right: 72px;
 		margin-top: -10px;
 	}
 	nav.mobile-menu > ul > li > #ctt{
-		margin-right: 163px;
+		margin-right: 73px;
 		margin-top: -10px;
+	}
+
+	.texto-sessao1 #primeiraColuna{
+		display: table;
+		margin-left: -10px;
+		font-size: 15px;
+	}
+
+	.texto-sessao1 #segundaColuna{
+		display: table;
+		float: right;
+		margin-top: -62px;
+		font-size: 14px;
+		padding-right: 10px;
+	}
+
+	.texto-sessao1 ul #StProf{
+		padding-left: 0px;
+	}
+
+	.texto-sessao1 ul #LjVrt{
+		margin-right: 0px;
+	}
+
+	.texto-sessao1 ul #BgPss{
+		margin-right: 8px;
+	}
+
+	.texto-sessao1 ul #StNtc{
+		margin-right: -18px;
+	}
+
+	.texto-sessao1 ul #CrrRs{
+		margin-right: 2.5px;
+	}
+
+	.texto-sessao1 ul #StOnPg{
+		margin-right: -98px;
 	}
 
 	footer > div > a > p{
@@ -779,24 +960,54 @@ a{
 }
 
 @media screen and (max-width: 320px){
+	nav.mobile-menu > ul{
+		margin-left: 145px;
+	}
+
 	nav.mobile-menu > ul > li > #home,
 	nav.mobile-menu > ul > li > #sbr{
-		margin-right: 140px;
+		margin-right: 60px;
 		margin-top: -10px;
 	}
 
 	nav.mobile-menu > ul > li > #svç{
-		margin-right: 132px;
+		margin-right: 53px;
 		margin-top: -10px;
 	}
 	nav.mobile-menu > ul > li > #ctt{
-		margin-right: 133px;
+		margin-right: 54px;
 		margin-top: -10px;
 	}
 
 	.chamada1 > p{
 		width: 300px;
 		font-size: 14px;
+	}
+
+	.texto-sessao1 #primeiraColuna{
+		display: table;
+		margin-left: -35px;
+		font-size: 14px;
+	}
+
+	.texto-sessao1 #segundaColuna{
+		display: table;
+		float: right;
+		margin-top: -62px;
+		font-size: 14px;
+		padding-right: 0px;
+	}
+
+	.texto-sessao1 ul #StNtc{
+		margin-right: -13px;
+	}
+
+	.texto-sessao1 ul #CrrRs{
+		margin-right: 8px;
+	}
+
+	.texto-sessao1 ul #StOnPg{
+		margin-right: -93px;
 	}
 
 	.part1{
